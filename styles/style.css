@@ -115,12 +115,7 @@
 }
 
 .two-columns__main-text {
-  padding:0;
-  margin: 0;
   width: 80%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   min-width: 784px;
 }
 
@@ -130,22 +125,13 @@
   font-size: 24px;
 }
 
-.two-columns__paragraph-1 {
-  padding: 0;
-  margin: 0  0 30px;
-
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin:0 0 30px 0;
 }
 
-.two-columns__paragraph-2 {
-  padding: 0;
-  margin: 0 0 30px;
-
-}
-
-.two-columns__paragraph-3 {
-  padding: 0;
-  margin: 0;
-}
 
  /*digits Block ======================================================
    */
@@ -274,6 +260,7 @@
     overflow: hidden;
     background: black;
     color: white;
+    z-index: 2;
   }
 
    .section__title_theme_dark {
@@ -295,15 +282,11 @@
     padding: 0;
 
   }
+
   .table__theme_dark {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 1100px;
     margin: 0px auto 90px;
-    padding:0;
   }
+
   .table__cell_theme_dark {
     width: 200px;
     list-style: none;
@@ -311,29 +294,20 @@
     margin-right: 0;
   }
 
-  .table__heading_them_dark {
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: bold;
+  .table__heading_theme_dark {
     margin: 0;
-
   }
   .table__text_theme_dark {
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: normal;
     margin: 20px 0 0;
   }
+
   .kaufman__triangle {
     position: absolute;
     width: 660px;
     height: 636px;
-    top: 0px;
     right: -124px;
-    opacity: .8;
+    z-index: -1;
   }
-
-
     /*footer Block ======================================================
    */
 
@@ -342,7 +316,6 @@
     background: black;
     color: white;
     display: flex;
-
   }
   .footer__columns {
     display: flex;
@@ -351,20 +324,19 @@
     margin: 0 auto 40px;
     padding-top: 60px;
   }
+
   .footer__column_copyright_content {
-    position: relative;
+    display: flex;
     flex-basis: 711px;
+    justify-content: space-between;
+    flex-direction: column;
   }
 
   .footer__author {
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
   }
-
 
   .footer__column-heading {
     line-height: 30px;
