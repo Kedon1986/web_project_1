@@ -25,7 +25,10 @@
   justify-content:center;
 
 }
-
+.logo {
+  width: 154px;
+  height: 31px;
+}
 .logo_place_header {
   position: absolute;
   width: 154px;
@@ -35,17 +38,20 @@
   left: 64px;
 }
 
+
+
 .header__title {
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
   margin: 0 0 0 64px;
   width: 730px;
-  z-index: +3;
+  z-index: +4;
 }
 
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -53,6 +59,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: +3;
 }
 
 
@@ -131,6 +138,9 @@
   font-weight: normal;
   margin:0 0 30px 0;
 }
+.two-columns__paragraph:last-child {
+  margin: 0;
+}
 
 
  /*digits Block ======================================================
@@ -166,7 +176,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1100px;
-  margin: 60px auto 100px;
+  margin: 0 auto 100px;
   padding:0;
 }
 
@@ -184,6 +194,8 @@
 }
 
 .table__text {
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -196,7 +208,7 @@
    */
 
    .feynman {
-     height: 790px;
+     min-height: 790px;
      position: relative;
      background: #f2f2f2;
    }
@@ -253,7 +265,7 @@
   .kaufman{
     position: relative;
     overflow: hidden;
-    background: black;
+    background: #1F1F1F;
     color: white;
     z-index: 2;
   }
@@ -278,11 +290,11 @@
 
   }
 
-  .table_theme_dark {
+  .table__theme_dark {
     margin: 0px auto 90px;
   }
 
-  .table_cell_theme_dark {
+  .table__cell_theme_dark {
     width: 200px;
     list-style: none;
     margin-top: 80px;
@@ -297,6 +309,7 @@
   }
 
   .kaufman__triangle {
+    background-image: url("../images/kaufman-triangle.svg");
     position: absolute;
     width: 660px;
     height: 636px;
@@ -309,7 +322,7 @@
 
    .footer {
     min-height: 350px;
-    background: black;
+    background: #1F1F1F;
     color: white;
     display: flex;
   }
@@ -321,7 +334,7 @@
     padding-top: 60px;
   }
 
-  .footer__column_copyright_content {
+  .footer__column_content_copyright {
     display: flex;
     flex-basis: 711px;
     justify-content: space-between;
@@ -343,14 +356,15 @@
   .footer__list {
      list-style: none;
      padding: 0;
-     line-height: 30px;
-     font-size: 18px;
-     font-weight: normal;
      margin: 0;
   }
 
   .footer__column-link {
-    margin-bottom: 10px;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
     color: white;
     text-decoration: none;
   }
