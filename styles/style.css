@@ -249,9 +249,8 @@
    .feynman__link {
     color: #2F80ED;
     position: absolute;
-    height: 50%;
     right: 48px;
-    bottom: 0px;
+    top: 50%;
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
@@ -270,7 +269,7 @@
     z-index: 2;
   }
 
-   .section__title_theme_dark {
+   .section-title__theme_dark {
     width: 60%;
     text-align: center;
     margin: 90px auto 20px;
@@ -279,7 +278,7 @@
     font-weight: bold;
 
   }
-  .section__sub-title_theme_dark {
+  .section-subtitle__theme_dark {
     width: 60%;
     text-align: center;
     margin: 0 auto;
@@ -287,10 +286,9 @@
     font-size: 24px;
     font-weight: normal;
     padding: 0;
-
   }
 
-  .table__theme_dark {
+  .table_theme_dark {
     margin: 0px auto 90px;
   }
 
