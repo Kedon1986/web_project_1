@@ -1,0 +1,25 @@
+@keyframes rotate-square {
+  from {
+    transform: rotate(-15deg);
+  }
+  
+  to {
+    transform: rotate(345deg);
+  } 
+ }
+
+.header__square-pic {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  background: #2F80ED;
+  right: 0px;
+  top: 64px;
+  z-index: 1;
+  transform: rotate(-15deg);
+  /*animation-name: rotate-square;*/
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+  

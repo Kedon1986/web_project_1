@@ -1,0 +1,10 @@
+.header__main-illustration {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 756px;
+  height: 608px;
+  z-index: +2;
+  border: none;
+}
