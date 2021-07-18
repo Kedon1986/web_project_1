@@ -4,4 +4,9 @@
     width: 1100px;
     margin: 80px auto 217px;
     text-align: center;
+    transition: opacity .2s;
+  }
+
+  .resources__logo-zone:hover {
+    opacity :0.5;
   }
