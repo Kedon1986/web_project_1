@@ -1,12 +1,8 @@
 .resources__logo-zone {
-    display: flex;
-    flex-direction: row;
-    width: 1100px;
-    margin: 80px auto 217px;
-    text-align: center;
-    transition: opacity .2s;
-  }
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  margin: 80px auto 217px;
+  text-align: center;
+}
 
-  .resources__logo-zone:hover {
-    opacity :0.5;
-  }
